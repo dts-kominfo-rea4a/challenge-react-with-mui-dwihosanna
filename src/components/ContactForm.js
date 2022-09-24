@@ -53,7 +53,7 @@ const ContactForm = ({
                 />
             </Box>
             <Box>
-                <Button onClick={addContactHandler} variant="contained">tes</Button>
+                <Button onClick={addContactHandler} variant="contained">Add Contact</Button>
             </Box>
         </Box>
     );

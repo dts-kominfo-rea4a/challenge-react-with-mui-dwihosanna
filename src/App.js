@@ -35,7 +35,7 @@ const App = () => {
 
         </Header>
       </Box>
-        <Grid container gap={3} marginLeft={4}>
+        <Grid container spacing={3} marginLeft={4}>
           <Grid item xs={4} md={6}>
             {/* xs=untuk jatah grid sesuai ukuran screen small, md= medium, lg=largem, maks=12*/}
             <ContactForm onSubmit={(data) => addContact(data)}>
