@@ -45,8 +45,8 @@ const App = () => {
           <Grid item xs={12} md={4}>
             <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
               {
-                contacts.map((item, index) => (
-                  <Contact data={item} key={index} />
+                contacts.map((item) => (
+                  <Contact data={item} />
                 ))
               }
             </List>

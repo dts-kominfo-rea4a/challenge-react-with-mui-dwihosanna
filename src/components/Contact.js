@@ -13,7 +13,8 @@ const Contact = ({ data }) => {
         <>
             <ListItem>
                 <ListItemAvatar>
-                    <Avatar component={"img"} src={data.photo}>
+                    <Avatar>
+                        <img src={data.photo} alt={data.name}/>
                     </Avatar>
 
                 </ListItemAvatar>
